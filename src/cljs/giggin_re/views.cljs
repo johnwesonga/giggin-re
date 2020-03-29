@@ -69,7 +69,7 @@
               [:img {:src (get-in gigs [id :img])
                          :alt (get-in gigs [id :title])}]]
              [:div.content
-               [:p.title (str (get-in gigs [id :title]) " \u00D7 ") [label-edit quant]]]
+               [:div.title (str (get-in gigs [id :title]) " \u00D7 ") [label-edit quant]]]
 
 
              [:div.action
